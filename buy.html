@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy From Farmers</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body style="background-color: azure;">
+    <form align="center">
+        
+    <div class="container">
+        <h1>Upload Image of Your Product..</h1></td> 
+        
+        <form id="infoForm">
+       
+            <div class="form-group">
+                <label for="imageInput">Upload an Image:</label>
+                <input type="file" id="imageInput" accept="image/*" required>
+            </div>
+       
+        
+            <div class="form-group">
+                <label for="location">Current Location:</label>
+                <input type="text" id="location" placeholder="Enter your location" required>
+            </div>
+       
+            <div class="form-group">
+                <label for="quality">Quality Rating:</label>
+                <div class="stars">
+                    <input type="radio" id="star1" name="quality" value="5"><label for="star1">★</label>
+                    <input type="radio" id="star2" name="quality" value="4"><label for="star2">★</label>
+                    <input type="radio" id="star3" name="quality" value="3"><label for="star3">★</label>
+                    <input type="radio" id="star4" name="quality" value="2"><label for="star4">★</label>
+                    <input type="radio" id="star5" name="quality" value="1"><label for="star5">★</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity (in Quintals):</label>
+                <input type="number" id="quantity" placeholder="Enter quantity in quintals" required>
+            </div>
+            <button type="submit">Submit</button>
+    
+        </form>
+    </div>
+
+    </form>
+</body>
+</html>
